@@ -30,7 +30,7 @@ namespace SimpleCalculator
 
         }
 
-        internal static object Multiplier(object a, object b)
+        public static object Multiplier(object a, object b)
         {
             if (a is string || b is string)
                 return "Invalid input for a or b";
@@ -52,7 +52,7 @@ namespace SimpleCalculator
             }
         }
 
-        internal static object Divide(object a, object b)
+        public static object Divide(object a, object b)
         {
             if (a is string || b is string)
                 return "Invalid input for a or b";

@@ -84,7 +84,4 @@ namespace SimpleCalculator
         }
         #endregion
     }
-
-    
-
 }

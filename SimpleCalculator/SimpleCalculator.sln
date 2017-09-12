@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{BE3B23B6-937D-4CE1-8330-15D1423CD1FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "SimpleCalculator\Calculator.csproj", "{BE3B23B6-937D-4CE1-8330-15D1423CD1FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{243EA917-CC12-4AC6-9FC0-75D4F7E3B48F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UnitTests", "Calculator.UnitTests\Calculator.UnitTests.csproj", "{A1761FE2-430C-442F-85E7-6EE4FDB0A483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Web.MVC", "Calculator.Web.MVC\Calculator.Web.MVC.csproj", "{243EA917-CC12-4AC6-9FC0-75D4F7E3B48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.IntegrationTests", "Calculator.IntegrationTests\Calculator.IntegrationTests.csproj", "{2A163E9A-7E83-433E-B9F6-625BAACCD18D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,18 @@ Global
 		{BE3B23B6-937D-4CE1-8330-15D1423CD1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE3B23B6-937D-4CE1-8330-15D1423CD1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE3B23B6-937D-4CE1-8330-15D1423CD1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1761FE2-430C-442F-85E7-6EE4FDB0A483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1761FE2-430C-442F-85E7-6EE4FDB0A483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1761FE2-430C-442F-85E7-6EE4FDB0A483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1761FE2-430C-442F-85E7-6EE4FDB0A483}.Release|Any CPU.Build.0 = Release|Any CPU
 		{243EA917-CC12-4AC6-9FC0-75D4F7E3B48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{243EA917-CC12-4AC6-9FC0-75D4F7E3B48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{243EA917-CC12-4AC6-9FC0-75D4F7E3B48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{243EA917-CC12-4AC6-9FC0-75D4F7E3B48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A163E9A-7E83-433E-B9F6-625BAACCD18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A163E9A-7E83-433E-B9F6-625BAACCD18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A163E9A-7E83-433E-B9F6-625BAACCD18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A163E9A-7E83-433E-B9F6-625BAACCD18D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
